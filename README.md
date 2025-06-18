@@ -1,12 +1,12 @@
 # 📊 Stock Price Movement Prediction Using Machine Learning
 
-Predicting whether a stock’s price will go **Up** or **Down** the next day based on **technical indicators**.
+Predicting whether a stock’s price will go Up or Down the next day based on **technical indicators**.
 
 ![Banner](assets/banner.png) <!-- Replace with your actual banner or project image -->
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores whether **technical indicators** such as RSI, MACD, and Moving Averages can help predict short-term stock price direction (next-day "Up" or "Down").
 
@@ -14,15 +14,15 @@ Despite the challenge of noise and randomness in the market, this project applie
 
 ---
 
-## 🎯 Goal
+## Goal
 
-> Can we train a machine learning model to predict if a stock will go up or down the next day based on historical price and technical features?
+Can we train a machine learning model to predict if a stock will go up or down the next day based on historical price and technical features?
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
-
+```text
 
 ├── data/
 │ ├── features_X.csv # Processed feature matrix
@@ -35,11 +35,11 @@ Despite the challenge of noise and randomness in the market, this project applie
 ├── requirements.txt
 └── README.md
 
-
+```
 
 ---
 
-## 🧪 Technical Indicators Used
+## Technical Indicators Used
 
 | Feature | Description |
 |--------|-------------|
@@ -50,7 +50,7 @@ Despite the challenge of noise and randomness in the market, this project applie
 
 ---
 
-## 📉 Dataset
+## Dataset
 
 - **Stock**: Apple Inc. (AAPL)
 - **Source**: Yahoo Finance via `yfinance`
@@ -59,7 +59,7 @@ Despite the challenge of noise and randomness in the market, this project applie
 
 ---
 
-## 🤖 Machine Learning Models Used
+## Machine Learning Models Used
 
 | Model                | Key Insights |
 |---------------------|--------------|
@@ -70,7 +70,7 @@ Despite the challenge of noise and randomness in the market, this project applie
 
 ---
 
-## 🔍 Results (LightGBM - Final Model)
+## Results (LightGBM - Final Model)
 
 **Confusion Matrix:**
 
@@ -89,13 +89,13 @@ Models find it easier to predict "Down" movements, but struggle with "Up" days. 
 
 ---
 
-## 🔍 Feature Importance (LightGBM)
+## Feature Importance (LightGBM)
 
 ![Feature Importance](assets/feature_importance.png)
 
 ---
 
-## 📊 Visuals
+## Visuals
 
 **Closing Price & Moving Averages:**
 
@@ -107,7 +107,7 @@ Models find it easier to predict "Down" movements, but struggle with "Up" days. 
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Python 3.10
 - `pandas`, `numpy`, `scikit-learn`, `lightgbm`, `matplotlib`, `seaborn`
@@ -116,11 +116,11 @@ Models find it easier to predict "Down" movements, but struggle with "Up" days. 
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
-- 🔮 Add **news sentiment features** using FinBERT or VADER
-- 🔁 Use **rolling window cross-validation**
-- 🧠 Try **sequence models** like LSTM for deeper patterns
+- Add **news sentiment features** using FinBERT or VADER
+- Use **rolling window cross-validation**
+- Try **sequence models** like LSTM for deeper patterns
 
 ---
 
