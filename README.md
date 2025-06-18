@@ -31,7 +31,7 @@ Can we train a machine learning model to predict if a stock will go up or down t
 │ ├── 01_data_collection_and_feature_engineering.ipynb
 │ ├── 02_model_training_and_evaluation.ipynb
 ├── assets/
-│ ├── sample_chart.png # Plots for README
+│ ├── sample_chart.png 
 ├── requirements.txt
 └── README.md
 
@@ -124,7 +124,7 @@ Models find it easier to predict "Down" movements, but struggle with "Up" days. 
 
 ---
 
-## 📎 How to Run
+## How to Run
 
 ```bash
 # Clone the repo
